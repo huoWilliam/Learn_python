@@ -29,3 +29,8 @@ A = 'hello'  # 5个字符
 print(len(A))
 B = '中'.encode('utf-8') # 3个字节
 print(len(B))
+
+# 不可变对象
+s = 'hello'
+print(s.replace('h', 'H')) # 返回一个新的对象
+print(s) 

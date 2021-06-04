@@ -16,7 +16,7 @@
 
 ---
 
-参考代码： [hello.py](hello.py) 
+参考代码：  [hello.py](code\hello.py) 
 
 ## 输入和输出
 
@@ -32,9 +32,9 @@ print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 
 参数：
 
-- objects -- 复数，表示==可以一次输出多个对象。==输出多个对象时，需要用 , 分隔。
-- sep -- ==用来间隔多个对象，默认值是一个空格==。
-- end -- 用来设定以什么结尾。==默认值是换行符 \n==，我们可以换成其他字符串。
+- objects -- 复数，表示**可以一次输出多个对象。**输出多个对象时，需要用 , 分隔。
+- sep -- **用来间隔多个对象，默认值是一个空格**。
+- end -- 用来设定以什么结尾。**默认值是换行符 \n**，我们可以换成其他字符串。
 - file -- 要写入的文件对象。
 - flush -- 输出是否被缓存通常决定于 file，但如果 flush 关键字参数为 True，流会被强制刷新。
 
@@ -51,11 +51,11 @@ print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 
 ---
 
-参考代码： [print.py](print.py) 
+参考代码：  [print.py](code\print.py) 
 
 ### input()
 
- `input()` 函数接收任意输入，将所有输入默认为字符串处理，==返回为 string 类型==。
+ `input()` 函数接收任意输入，将所有输入默认为字符串处理，**返回为 string 类型**。
 
 语法：
 
@@ -71,5 +71,4 @@ input([prompt])
 
 ---
 
-参考代码： [input.py](input.py) 
-
+参考代码：  [input.py](code\input.py) 
