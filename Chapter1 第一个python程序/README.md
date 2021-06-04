@@ -16,7 +16,7 @@
 
 ---
 
-参考代码：  [hello.py](code\hello.py) 
+参考代码：  [hello.py](hello.py) 
 
 ## 输入和输出
 
@@ -51,7 +51,7 @@ print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 
 ---
 
-参考代码：  [print.py](code\print.py) 
+参考代码：  [print.py](print.py) 
 
 ### input()
 
@@ -71,4 +71,4 @@ input([prompt])
 
 ---
 
-参考代码：  [input.py](code\input.py) 
+参考代码：  [input.py](input.py) 
