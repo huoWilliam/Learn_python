@@ -11,3 +11,15 @@ print(a)
  
 d = {1:2, 2:2, 3:1, 4:'aa'}  #比较字典里面的最大值，会输出最大的键值
 print(max(d))
+
+# hex()函数把一个整数转换成十六进制表示的字符串
+print(hex(255))
+print(hex(1000))
+
+# oct()函数把一个整数转换成八进制表示的字符串
+print(oct(255))
+print(oct(1000))
+
+# 为函数起一个别名
+my_hex = hex
+print(my_hex(255))
